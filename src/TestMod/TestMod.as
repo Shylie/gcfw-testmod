@@ -18,8 +18,6 @@ package TestMod
 		public function get BEZEL_VERSION() : String { return "2.0.0"; }
 		public function get MOD_NAME() : String { return _MOD_NAME; }
 		
-		private var testmod : Object;
-		
 		internal static var bezel : Bezel;
 		internal static var logger : Logger
 		internal static var instance : TestMod;
@@ -42,7 +40,6 @@ package TestMod
 		
 		public function unload() : void
 		{
-			
 		}
 		
 		private function addEventListeners() : void
